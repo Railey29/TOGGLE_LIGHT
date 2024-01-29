@@ -1,0 +1,49 @@
+/* NavbarComponents.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.logo {
+  color: white;
+}
+
+.navbar-item {
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item li {
+  margin-right: 10px;
+  border-bottom: solid white 2px;
+}
+
+.navbar-item li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-item li {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}

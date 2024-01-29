@@ -1,0 +1,9 @@
+body {
+  z-index: 0;
+}
+* {
+  font-family: system-ui;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
